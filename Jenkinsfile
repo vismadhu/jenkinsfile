@@ -3,6 +3,6 @@ node
  stage 'Stage Checkout'
 
 checkout scm
-  echo "My branch is: ${env.BRANCH_NAME}"
-
+ def causes=currentBuild.rawBuild.getCauses()
+  echo causes
 }
