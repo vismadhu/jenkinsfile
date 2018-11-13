@@ -4,6 +4,6 @@ node
 
 checkout scm
  def causes= currentBuild.rawBuild.getCauses()
- echo "cause isssssssssssssssssss"
+ echo "cause issssssssssssss"
  println causes
 }
